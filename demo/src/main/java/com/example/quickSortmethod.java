@@ -66,8 +66,8 @@ public class quickSortmethod {
         swap(arr, i + 1, high);
         return (i + 1);
     }
-
-    static void swap(int[] arr, int i, int j) {
+    // swapping two units in an array
+    public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
@@ -85,7 +85,7 @@ public class quickSortmethod {
         }
         int i = 0;
         while (scn.hasNext()) { // while there is another token to read
-            int s = scn.nextInt(); // reads in the String tokens "Hello" "CSstudents"
+            int s = scn.nextInt(); // reads in the String tokens
             listOfints[i] = s;
             i++;
         }
